@@ -10,17 +10,12 @@ html {
   font-size: 62.5%;
 }
 
-body{
-    /* padding: 1rem 2rem; */
-    /* overflow-x: hidden; */
-}
-
 .container {
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding:2rem;
+  padding: 2rem;
 }
 
 form {
