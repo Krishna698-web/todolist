@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  box-shadow: 1px 2px 5px -2px black;
+  border-radius: 3px;
+  padding: 2rem 3rem;
+  margin: 3rem 0;
+}
+form h1 {
+  margin-bottom: 1rem;
+  color: darkblue;
+}
+form input {
+  outline: none;
+  display: block;
+  padding: 8px 1rem;
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  color: darkblue;
+}
+.button {
+  color: white;
+  background: #5d3fd3;
+  box-shadow: 1px 2px 4px -2px black;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 2rem;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+#meter {
+  border: 1px solid #ccc;
+  height: 1.5rem;
+}
+#span {
+  background-color: #a5a5ff;
+  width: 0;
+  display: block;
+  height: 100%;
+}
+
+button,
+li {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 0;
+  background-color: #5d3fd3;
+}
+
+ul li {
+  width: 100%;
+  background-color: #5d3fd3;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  color: white;
+  box-shadow: 1px 2px 6px -2px black;
+}
+
+label {
+  margin: 1rem;
+  font-size: 2rem;
+  pointer-events: none;
+  transition: 0.1s;
+}
+
+ul .button {
+  width: 30%;
+  background: darkblue;
+  padding: 5px 2rem;
+  display: none;
+}
