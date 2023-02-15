@@ -51,12 +51,14 @@ form input {
 #meter {
   border: 1px solid #ccc;
   height: 1.5rem;
+  border-radius: 1rem;
 }
 #span {
   background-color: #a5a5ff;
   width: 0;
   display: block;
   height: 100%;
+  border-radius: 1rem;
 }
 
 button,
