@@ -30,12 +30,11 @@ form.addEventListener("submit", (e) => {
         input.style = 'border: 1px solid #ccc; background: white';
         li.append(chkbox, lbl) // append both the checkbox and label to list at once
         list.appendChild(li); //appends on a single li element
-        spanWidth = spanWidth + 64; //adds 64(64px) to span
+        spanWidth = spanWidth + 53; //adds 64(64px) to span
         span.style.width = `${spanWidth}px`;  //sets the value of new width to the span element
         arrList.push(li);
         console.log(arrList)
     }
-
 
     // Changes after the list element is clicked
     li.addEventListener('click', () => {
